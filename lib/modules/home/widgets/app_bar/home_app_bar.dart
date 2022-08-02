@@ -8,7 +8,7 @@ class HomeAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      iconTheme: IconThemeData(color: AppColors.brandingGrey),
+      iconTheme: IconThemeData(color: AppColors.grey),
       actions: const [
         PersonIcon(),
       ],
